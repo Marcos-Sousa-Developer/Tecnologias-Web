@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="utf-8">
+        <title>&#127922; Play &#127922;</title>
+        <link rel="stylesheet" type="text/css" href="style/style.css">
+        <link rel="stylesheet" type="text/css" href="../2.homepage/style/style.css"> 
+    </head>
+    <body>
+        <p id="contador"> <span id="timeText">TEMPO DECORRIDO: </span> <span id="time">0</span></p>
+
+        <div id="container">
+            <div id="escolhaPokemon">
+                <h1><span id="timeText">ESCOLHE UM POKEMON PARA INICIAR O JOGO</span></h1>
+
+                <div class="pokemon">
+                    <p><img src="img/pikachu.png" alt="" width="200px"></p>
+                    <p><button id="button_pikachu" type="submit" onclick="choosePokemon('PIKACHU')"><span id="timeText">PIKACHU</span></button></p>
+                </div>
+                
+                <div class="pokemon">
+                    <p><img src="img/infernape.png" alt="" width="200px"></p>
+                    <p><button id="button_infernape" type="submit" onclick="choosePokemon('INFERNAPE')" ><span id="timeText">INFERNAPE</span></button></p>
+                </div>
+
+            </div>
+
+            <div id="tabuleiro"></div>
+
+            <div id="tabuleiro_batalha_pokemon">
+
+                <div id= "JOGADOR"> 
+                    <p id="p_pokemon_jogador"><p>
+                </div>
+
+                <div id="dado">
+                    <p id="dados"></p>
+                    <p><button id="rolarDado" onclick="batalhar()">ROLAR DADO</button></p>
+                </div>
+
+                <div id="INIMIGO">
+                    <p id="p_pokemonAdversario"></p>
+                </div>
+
+            </div>
+        </div>
+        
+        <script src="script/play.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </body>
+</html>
+

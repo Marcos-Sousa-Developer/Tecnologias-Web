@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(../../6.about/img/background.jpg);
+    background-color: green;
+    display: inline;
+    text-align: center;
+}
+
+#contador {
+    padding-top: 5px;
+    text-transform: uppercase;
+    color: black;
+    font-weight:bold;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#timeText {
+    background-color: chartreuse;
+    border: 2px black solid;
+}
+
+#time {
+    border: 2px black solid;
+    font-size: 25px;
+    background-color: crimson;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#escolhaPokemon {
+
+    width: 1000px;
+    height: 560px;
+
+}
+
+h1 {
+    padding-top: 50px;
+    color:black;
+    font-weight: bold;
+    font-size: 45px;
+    font-family:fantasy;
+    text-transform: uppercase;
+
+}
+
+
+#escolhaPokemon div{
+    
+    padding: 100px;
+    padding-top: 70px;
+    display: inline-block;
+
+}
+
+#button_pikachu{
+    color:yellow;
+    font-weight: bold;
+    font-size: 35px;
+    font-family:fantasy;
+    text-transform: uppercase;
+}
+
+#button_infernape{
+    color:red;
+    font-weight: bold;
+    font-size: 35px;
+    font-family:fantasy;
+    text-transform: uppercase;
+}
+
+#tabuleiro {
+    position: absolute;
+    border: 2px solid black;
+    width: 1000px;
+    height: 560px;
+    display:none;
+    flex-wrap: wrap;
+
+    
+}
+
+#tabuleiro_batalha_pokemon {
+    position: absolute;
+    display: flex;
+    padding-top: 150px;
+    display: none;
+}
+
+#JOGADOR{
+    color:rgb(172, 44, 44);
+    font-weight: bold;
+    font-size: 35px;
+    font-family:fantasy;
+    text-transform: uppercase;
+}
+
+#forcaMeuPokemon{
+    background-color: blanchedalmond;
+    border: solid 2px black;
+}
+
+#JOGADOR {
+    text-align: center;
+}
+
+
+#p_pokemon_jogador img {
+    border: 2px solid black;
+    width: 250px;
+}
+
+#dado {
+    padding-top: 30px;
+}
+
+#dado p{
+    text-align: center;
+}
+
+#face_dado {
+    width: 200px;
+    border: 2px solid black;
+}
+#rolarDado {
+    font-size: 30px;
+}
+
+
+#INIMIGO {
+    color:rgb(172, 44, 44);
+    font-weight: bold;
+    font-size: 35px;
+    font-family:fantasy;
+    text-transform: uppercase;
+}
+
+#forcaPokemonAdv{
+    background-color: blanchedalmond;
+    border: solid 2px black;
+}
+
+#p_pokemonAdversario img{
+    border: 2px solid black;
+    width: 250px;
+}
+
+#dadoSorteioAdv {
+    background-color: blanchedalmond;
+    border: solid 2px black;
+    color: black;
+    
+}
+
+#labirinto1{
+
+    width: 40px;
+    height: 22.4px;
+
+
+}
+#labirinto2{
+
+    width: 50px;
+    height: 28px;
+
+
+}
+#labirinto3{
+
+    width: 100px;
+    height: 56px;
+
+
+}
+#labirinto4{
+
+    width: 200px;
+    height: 112px;
+
+
+}
+
+
+
