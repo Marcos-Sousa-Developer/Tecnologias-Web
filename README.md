@@ -15,7 +15,7 @@ Assim, um jogador deve percorrer um caminho até chegar ao destino, apanhando os
 
 # Instruções 
 
-Para começar a jogar, deve aceder ao ficheiro homepage.html que está na pasta **2.homepage**
+Para começar a jogar, deve aceder ao ficheiro **homepage.html** que está na pasta **2.homepage/**
 
 #### **Run it on terminal** 
 ```bash
