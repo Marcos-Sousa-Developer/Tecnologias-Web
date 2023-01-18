@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="pt">
+    <head>
+        <link rel="stylesheet" type="text/css"  href="style/login.css">
+        <meta charset="utf-8">
+        
+        <title>Login</title>
+    </head>
+    <body>
+        <div class="login">
+            <img src="img/pikachu.png" class="user" width="100" height="100" alt="user">
+            <h1>Login</h1>
+            <form>
+                <p>Email ou Nome de Utilizador</p>
+                <input type="text" placeholder="Insira o seu nome usuário" id="email" name="email" required >
+
+                <p>Password</p>
+                <input type="password" placeholder="Insira a sua senha" id="password" name="password" required>
+
+                <button id="btnLogin" onclick="login()" type="button">Sign In</button>
+
+                <a href="create.html">Ainda não possui conta ?</a>
+            </form>
+        </div>
+    <script src="script/access.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </body>
+</html>

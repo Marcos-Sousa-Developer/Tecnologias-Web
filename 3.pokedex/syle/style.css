@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(to right, red , yellow);
+}
+
+#log {
+    display: flex;
+    justify-content: center;
+}
+#pokedexpage{
+    display: flex;
+}
+
+.pokemons{
+    text-transform: uppercase;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+
+    padding-bottom: 1px;
+
+}
+.pokemons1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+

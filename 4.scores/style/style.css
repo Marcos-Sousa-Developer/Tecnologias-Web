@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: wheat;
+}
+
+body {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+h1 {
+    padding: 5px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    color: teal;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.table {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+
+.single {
+    padding-right: 25px;
+}
+
+table {
+    padding: 4px;
+    border: 2px solid;
+}
+
+th {
+    padding-right: 10px;
+
+}
+
+td {
+    border: 2px solid;
+}

@@ -1,0 +1,36 @@
+body{
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color:yellowgreen;
+    padding: 10px;
+} 
+
+.regras {
+
+    background-color: rgb(15, 15, 12.5,0.8);
+    border-radius: 80px 80px 80px 80px;
+
+}
+#jogador {
+    color: rgb(199, 179, 0);
+}
+
+p {
+    padding: 30px;
+    color: rgb(199, 179, 0);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: seagreen;
+}
+
+a:hover {
+    color: rgb(199, 179, 0);
+}

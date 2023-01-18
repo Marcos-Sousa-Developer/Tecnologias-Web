@@ -1,0 +1,116 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+body.homepage{  
+    background-image: url(../img/Capa.jpg);
+    background-size: cover;
+    color: white;
+}
+
+nav{
+    background-color: rgb(0, 0, 0.5,0.5);
+    height: 40px;
+    width: 100%;
+
+}
+
+nav label img{
+    float:left;
+    padding-right: 2px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    padding-left: 0px;
+    font-weight: bold;
+}
+
+nav ul.menuesquerda li a{
+    color:rgb(212, 212, 134);
+}
+
+.conteudo {
+    width: 600px;
+    border-radius: 80px 80px 80px 80px;
+    background-color: rgb(0, 0,0,0.8);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box; /*largura e altura de um elemento, incluindo a as bordas */
+    padding: 0px 20px 30px30px; /*ocupa 70% (cima e baixo) e 30%(esquerda e direita) */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.play span{
+    color: white;
+    background-color: rgb(0, 0,0,0.8);
+    border-radius: 20px;
+    font-size: 50px;
+}
+.play {
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-family: fantasy;
+}
+
+div#iterativo {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#iterativo p {
+
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+div#iterativo p span{
+    color: white;
+    background-color: rgb(0, 0,0,0.8);
+    border-radius: 10px;
+}
+
+span a {
+    color: white;
+}
+
+span a:hover{
+    background-color: rgb(204, 204, 204,0.2);
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+#about {
+    float: right;
+    text-transform: uppercase;
+}
+
+audio {
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

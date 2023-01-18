@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="pt">
+    <head>
+        <link rel="stylesheet" type="text/css"  href="style/login.css">
+        <link rel="stylesheet" type="text/css"  href="style/create.css">
+        <meta charset="utf-8">
+        <title>Create Account</title>
+    </head>
+    <body>
+        <section class="login">
+            <img src="img/pikachu.png" class="user" width="100" height="100" alt="user">
+            <h1>Criar Conta</h1>
+
+            <form id="formCriarConta">
+                <p>Email ou Nome de Utilizador</p>
+                <input type="text" placeholder="Insira o seu nome usuário" id="email" name="email" required >
+
+                <p>Password</p>
+                <input type="password" placeholder="Insira a sua senha" id="password" name="password" required>
+                <div>
+
+                    <p>Idade</p>
+                    <select id="idade" name="idade">
+                        <option value="menos de 5" selected>menos de 5</option>
+                        <option value="5-9">5-9</option>
+                        <option value="10-14">10-14</option>
+                        <option value="15-19">15-19</option>
+                        <option value="20-24">20-24</option>
+                        <option value="25+">25+</option>
+                    </select><br>
+
+                    <p>Género</p>
+                    <select id="genero" name="genero">
+                        <option value="Masculino" selected>Masculino</option>
+                        <option value="Femenino">Femenino</option>
+                    </select> <br>
+
+                </div>
+                <button id="btnFazerConta" onclick="createAccount()" type="button">Criar Conta</button>
+
+            </form>
+        </section>
+    </body>
+    <script src="script/access.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</html>
