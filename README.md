@@ -2,8 +2,8 @@
     <img src="https://e7.pngegg.com/pngimages/978/632/png-clipart-pokemon-pokemon.png" alt="Logo" width="80" height="80">
 </p>
 
-# <h1 align="center">Jogo Pokémon</h3>
-<h4 align="center">Projeto para a cadeira de Tecnologias Web (2020/2021)</h5>
+# <h1 align="center">Jogo Pokémon</h1>
+<h4 align="center">Projeto para a cadeira de Tecnologias Web (2020/2021)</h4>
 
 <hr>
 
